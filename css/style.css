@@ -1,0 +1,59 @@
+/* globals */
+
+
+.wrapper_80{
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  max-width: 1700px;
+}
+
+.wrapper_60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+._fixed{
+  position: fixed;
+}
+
+.background_red{
+  background-color: red;
+}
+
+.background_blue{
+  background-color: blue;
+}
+
+.backgorund-lightcoral{
+  background-color: lightcoral;
+}
+
+.height_80{
+  height: 80px;
+}
+
+.margin_top_40{
+  margin-top: 40px;
+}
+
+.mt_height_100{
+  height: 100%;
+}
+
+.box{
+  height: 100px;
+  background-color: green;
+}
+
+/*overwrite bootstrap classes*/
+
+
+
+/* main */
+
+/* jumbotron */
+
+._jumbotron{
+  background-color: lightcoral;
+}
