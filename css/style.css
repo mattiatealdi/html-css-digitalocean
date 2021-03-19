@@ -44,6 +44,7 @@
 .box{
   height: 100px;
   background-color: green;
+  border: 1px solid black;
 }
 
 /*overwrite bootstrap classes*/
