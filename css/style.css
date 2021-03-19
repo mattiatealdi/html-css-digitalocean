@@ -47,6 +47,17 @@
   border: 1px solid black;
 }
 
+.box_row *{
+  height:100px;
+  background-color: lightseagreen;
+  border: 1px solid black;
+}
+
+.max_width_1400{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 /*overwrite bootstrap classes*/
 
 
