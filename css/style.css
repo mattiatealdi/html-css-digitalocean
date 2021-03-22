@@ -22,6 +22,7 @@
   width: 100%;
 }
 
+
 ._fixed{
   position: fixed;
 }
@@ -43,6 +44,9 @@
 ._font_size_20{
   font-size: 20px;
 }
+._font_size_10{
+  font-size: 10px;
+}
 ._line_height_15{
   line-height: 15px;
 }
@@ -52,13 +56,16 @@
 ._white{
   color: white;
 }
+._blue{
+  color: #532FFF;
+}
 
 .background_red{
   background-color: red;
 }
 
 .background_blue{
-  background-color: blue;
+  background-color: #532FFF;
 }
 
 .background-lightcoral{
@@ -74,12 +81,30 @@
 .margin_top_40{
   margin-top: 40px;
 }
+.margin_top_10{
+  margin-top:10px;
+}
 .margin_bottom_60{
   margin-bottom:60px;
 }
+.margin_bottom_100{
+  margin-bottom: 100px;
+}
+.margin_bottom_10{
+  margin-bottom: 10px;
+}
+
 
 .margin_bottom_10{
   margin-bottom: 10px;
+}
+
+._padding_bottom_20{
+  padding-bottom: 20px;
+}
+
+._padding_left_100{
+  padding-left: 100px;
 }
 ._vertical_middle{
   vertical-align: middle;
@@ -159,5 +184,40 @@
 /* jumbotron */
 
 ._jumbotron{
-  background-color: lightcoral;
+  background-image: url("/img/bg-banner-home.jpg");
+  background-size: cover;
+}
+
+._color_lightblue{
+  color: #579aff;
+}
+
+._background_lightblue{
+  background-color: #579aff;
+}
+
+._jumbotron_buttons{
+  border: none;
+  box-shadow: 1px 1px 1px gray;
+}
+
+/* logos*/
+
+.logos{
+  background-color: #F3F5F9;
+}
+
+.logos img{
+  width: 100%;
+}
+
+.logos{
+  line-height:220px;
+}
+._line_height_20{
+  line-height: 20px;
+}
+
+.first_section ul li{
+  text-decoration: none;
 }
