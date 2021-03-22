@@ -21,12 +21,17 @@
 ._width_100{
   width: 100%;
 }
-
+._inline_block{
+  display: inline-block;
+}
 
 ._fixed{
   position: fixed;
 }
 
+._float_left{
+  float: left;
+}
 ._float_right{
   float: right;
 }
@@ -59,6 +64,9 @@
 ._blue{
   color: #532FFF;
 }
+._nightblue{
+  color: #031C4E;
+}
 
 .background_red{
   background-color: red;
@@ -72,6 +80,12 @@
   background-color: lightcoral;
 }
 
+.background_smokewhite{
+  background-color: #F3F5F9;
+}
+._background_blue_gradiant{
+  background-image: linear-gradient(blue ,#532FFF)
+}
 .height_80{
   height: 80px;
 }
@@ -110,6 +124,9 @@
   vertical-align: middle;
 }
 
+._padding_right_40{
+  padding-right: 40px;
+}
 ._background_white{
   background-color: white;
 }
@@ -151,6 +168,13 @@
 .nav_bar ._padding_vertical_sm{
   padding: 20px 0;
   line-height: 100px;
+}
+
+._underline{
+  margin-bottom: 1px solid white;
+
+  text-decoration: underline white;
+  text-underline-position: below;
 }
 
 /*overwrite bootstrap classes*/
@@ -219,5 +243,18 @@
 }
 
 .first_section ul li{
-  text-decoration: none;
+  list-style-type: none;
+  border-left: 1px solid gray;
+  padding: 5px 0 5px 5px;
+  color: #7F89A1;
+}
+
+/* second_section */
+
+.second_section .row img{
+  width: 100%;
+}
+
+._padding_0{
+  margin: 0;
 }
