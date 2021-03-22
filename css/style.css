@@ -1,5 +1,10 @@
 /* globals */
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
 
 .wrapper_80{
   width: 80%;
@@ -13,8 +18,39 @@
   margin: 0 auto;
 }
 
+._width_100{
+  width: 100%;
+}
+
 ._fixed{
   position: fixed;
+}
+
+._float_right{
+  float: right;
+}
+
+._line_height_60{
+  line-height: 60px;
+}
+._line_height_70{
+  line-height: 70px;
+}
+
+._line_height_30{
+  line-height: 30px;
+}
+._font_size_20{
+  font-size: 20px;
+}
+._line_height_15{
+  line-height: 15px;
+}
+._bold{
+  font-weight: bold;
+}
+._white{
+  color: white;
 }
 
 .background_red{
@@ -25,21 +61,42 @@
   background-color: blue;
 }
 
-.backgorund-lightcoral{
+.background-lightcoral{
   background-color: lightcoral;
 }
 
 .height_80{
   height: 80px;
 }
-
+.margin_top_60{
+  margin-top: 60px;
+}
 .margin_top_40{
   margin-top: 40px;
+}
+.margin_bottom_60{
+  margin-bottom:60px;
+}
+
+.margin_bottom_10{
+  margin-bottom: 10px;
+}
+._vertical_middle{
+  vertical-align: middle;
+}
+
+._background_white{
+  background-color: white;
 }
 
 .mt_height_100{
   height: 100%;
 }
+
+._margin_left_80{
+  margin-left: 80%;
+}
+
 
 .box{
   height: 100px;
@@ -58,9 +115,44 @@
   margin: 0 auto;
 }
 
+._vertical_center{
+  vertical-align: center;
+}
+
+._color_blue{
+  color: blue;
+}
+
+.nav_bar ._padding_vertical_sm{
+  padding: 20px 0;
+  line-height: 100px;
+}
+
 /*overwrite bootstrap classes*/
 
 
+/* header */
+._logo{
+  width: 200px;
+}
+
+._padding_9{
+  padding: 9px  0;
+}
+
+._ul_header li{
+  text-decoration: none;
+  padding: 0px 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+._header_btn{
+  padding: 2px;
+  color:blue;
+  border: 1px solid blue;
+  background-color: white;
+}
 
 /* main */
 
