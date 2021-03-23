@@ -238,7 +238,7 @@
 /* jumbotron */
 
 ._jumbotron{
-  background-image: url("img/bg-banner-home.jpg");
+  background-image: url(/img/bg-banner-home.jpg);
   background-size: cover;
 }
 
