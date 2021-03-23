@@ -21,6 +21,10 @@
 ._width_100{
   width: 100%;
 }
+
+._height_100{
+  height: 100%;
+}
 ._inline_block{
   display: inline-block;
 }
@@ -42,9 +46,16 @@
 ._line_height_70{
   line-height: 70px;
 }
+.line_height_100{
+  line-height: 100%;
+}
 
 ._line_height_30{
   line-height: 30px;
+}
+
+._font_size_50{
+  font-size: 50px;
 }
 ._font_size_20{
   font-size: 20px;
@@ -139,6 +150,9 @@
   margin-left: 80%;
 }
 
+._height_img{
+  height: 500px;
+}
 
 .box{
   height: 100px;
@@ -170,12 +184,7 @@
   line-height: 100px;
 }
 
-._underline{
-  margin-bottom: 1px solid white;
 
-  text-decoration: underline white;
-  text-underline-position: below;
-}
 
 /*overwrite bootstrap classes*/
 
@@ -257,4 +266,15 @@
 
 ._padding_0{
   margin: 0;
+}
+
+._circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+._active_circle{
+  background-color: #532FFF;
 }
