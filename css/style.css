@@ -357,3 +357,36 @@
 ._btn_bottom{
   border: none;
 }
+
+/* footer */
+
+._background_nightblue{
+  background-color: #031C4E;
+}
+
+._gray{
+  color: #8891A7;
+}
+
+._darkgray{
+  color: #536282;
+}
+
+._footer_icons{
+  font-size: 30px;
+  word-spacing: 10px;
+}
+
+.footer_ul li{
+  list-style-type: none;
+  color: #9FA8B8;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.footer_ul li:first-child{
+  color: white;
+  list-style-type: none;
+  text-decoration:none;
+  font-size: 20px;
+}
