@@ -22,6 +22,10 @@
   width: 100%;
 }
 
+._width_50{
+  width: 50%;
+}
+
 ._height_100{
   height: 100%;
 }
@@ -31,6 +35,23 @@
 
 ._fixed{
   position: fixed;
+}
+._relative{
+  position: relative;
+}
+._absolute{
+  position:absolute;
+}
+._center_vertical{
+  top:50%;
+  left:-15%;
+  transform: translateY(-50%);
+}
+
+._center_vertical_right{
+  top:50%;
+  right: -15%;
+  transform: translateY(-50%);
 }
 
 ._float_left{
@@ -217,7 +238,7 @@
 /* jumbotron */
 
 ._jumbotron{
-  background-image: url("/img/bg-banner-home.jpg");
+  background-image: url("img/bg-banner-home.jpg");
   background-size: cover;
 }
 
@@ -272,7 +293,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid blue;
 }
 
 ._active_circle{
@@ -285,4 +306,54 @@
 
 ._padding_bottom_5{
   padding-bottom: 5px;
+}
+
+._overflow_hidden{
+  overflow: hidden;
+}
+
+.box_rockerbox{
+  height:300px;
+}
+
+.box_rockerbox{
+  height: 10%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+._font_size_15{
+  font-size: 15px;
+}
+
+._padding_top_20{
+  padding-top: 20px;
+}
+
+._padding_bottom_40{
+  padding-bottom: 40px;
+}
+
+._wrapper_80{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+._padding_top_40{
+  padding-top: 40px;
+}
+
+._padding_bottom_50{
+  padding-bottom: 50px;
+}
+
+._font_size_30{
+  font-size: 30px;
+}
+
+._btn_bottom{
+  border: none;
 }
