@@ -278,3 +278,11 @@
 ._active_circle{
   background-color: #532FFF;
 }
+
+._border_bottom_white{
+  border-bottom: 1px solid white;
+}
+
+._padding_bottom_5{
+  padding-bottom: 5px;
+}
