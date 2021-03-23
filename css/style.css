@@ -50,6 +50,10 @@
   left:-15%;
   transform: translateY(-50%);
 }
+._z_index_99{
+  z-index: 99;
+}
+
 
 ._padding_top_80{
   padding-top: 80px;
